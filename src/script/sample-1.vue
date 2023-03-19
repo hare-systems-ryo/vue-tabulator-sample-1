@@ -92,7 +92,7 @@ onUnmounted(() => {
 </script>
 <template>
   <div class="border border-danger p-2 rounded mb-2">
-    Sample1 とりあえず表を表示してみる
+    ② データの更新とダウンロード機能
     <div ref="tableElm"></div>
     <div class="">{{ state.list }}</div>
     <div class="mt-2">

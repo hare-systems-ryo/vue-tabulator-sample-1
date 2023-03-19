@@ -78,7 +78,7 @@ onUnmounted(() => {
 </script>
 <template>
   <div class="border border-danger p-2 rounded tabulatorSample2 mb-2">
-    Sample3 セルの中に複数のクリック可能要素を設置
+    ③ セルの中に複数のクリック可能要素を設置
     <div ref="tableElm"></div>
   </div>
   <teleport to="#teleport"> </teleport>

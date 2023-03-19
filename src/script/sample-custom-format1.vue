@@ -157,7 +157,7 @@ const excelDownload = () => {
 </script>
 <template>
   <div class="border border-danger p-2 rounded mb-2">
-    Sample2 各セルの中を自由に設計
+    ④ 各セルの中を自由に設計
     <div class="tabulator-custom-format">
       <div ref="tableElm"></div>
     </div>
