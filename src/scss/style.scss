@@ -1,0 +1,93 @@
+html {
+  width: 100%;
+}
+
+body {
+  width     : 100%;
+  min-height: 100vh;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+* {
+  margin  : 0px;
+  padding : 0px;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+
+#app {
+  z-index   : 0;
+  width     : 100%;
+  min-height: 100%;
+}
+
+#teleport {
+  z-index : 2;
+  position: fixed;
+  top     : 0;
+  left    : 0;
+}
+
+
+
+
+
+.tabulator-row {
+  &+& {
+    border-top: solid 1px #5f6b76bd;
+  }
+}
+
+//任意で色設定を変更する
+
+//Main Theme Variables
+$backgroundColor: #888 !default; //background color of tabulator
+$borderColor    :#999 !default; //border to tabulator
+$textSize       :14px !default; //table text size
+
+//header theming
+$headerBackgroundColor:#3e7edd !default; //border to tabulator
+$headerTextColor      :#ffffff !default; //header text color
+$headerBorderColor    :#aaa !default; //header border color
+$headerSeparatorColor :#999 !default; //header bottom separator color
+$headerMargin         :4px !default; //padding round header
+
+//column header arrows
+$sortArrowActive  : #666 !default;
+$sortArrowInactive: #bbb !default;
+
+//row theming
+$rowBackgroundColor   :#fff !default; //table row background color
+$rowAltBackgroundColor:#f0f3f5 !default; //table row background color
+$rowBorderColor       :#aaa !default; //table border color
+$rowTextColor         :#333 !default; //table text color
+$rowHoverBackground   :#d7dfff !default; //row background color on hover
+
+$rowSelectedBackground     : #9ABCEA !default; //row background color when selected
+$rowSelectedBackgroundHover: #769BCC !default; //row background color when selected and hovered
+
+$editBoxColor:#1D68CD !default; //border color for edit boxes
+$errorColor  :#dd0000 !default; //error indication
+
+//footer theming
+$footerBackgroundColor:#3e7edd !default; //border to tabulator
+$footerTextColor      :#ffffff !default; //footer text color
+$footerBorderColor    :#aaa !default; //footer border color
+$footerSeparatorColor :#999 !default; //footer bottom separator color
+$footerActiveColor    :#d00 !default; //footer bottom active text color
+@import "tabulator-tables/src/scss/tabulator.scss";
+
+
+
+
+
+
+// @import "prismjs";
+@import "prismjs/themes/prism-okaidia.css";
+
+// @import "prismjs/themes/prism-dark.css";
