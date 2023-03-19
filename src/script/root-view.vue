@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Prism from 'prismjs';
+import VcSampleMin from './sample-min.vue';
 import VcSample1 from './sample-1.vue';
 import VcSampleCustomFormat1 from './sample-custom-format1.vue';
 import VcSampleCellClick from './sample-cell-click.vue';
@@ -12,6 +13,7 @@ import VcSampleCellClick from './sample-cell-click.vue';
         Tabulatorでよく使用している機能とか使い方
       </div>
       <div class="card-body bg-light rounded">
+        <VcSampleMin></VcSampleMin>
         <VcSample1></VcSample1>
         <VcSampleCellClick></VcSampleCellClick>
         <VcSampleCustomFormat1></VcSampleCustomFormat1>
