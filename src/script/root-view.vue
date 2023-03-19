@@ -27,7 +27,7 @@ import VcSampleCellClick from './sample-cell-click.vue';
 //tabulator.value は↓これが入っているものとする
 //const tabulator = ref<any>(null); 
 //tabulator.value = new Tabulator(tableElm.value, {・・・・・・
-await table.tabulator.replaceData(差し替えたいlist);
+tabulator.value.replaceData(差し替えたいlist);
 `.replace(/(^\n|\n$)/g, ''),
               Prism.languages.javascript,
               'javascript'
