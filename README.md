@@ -8,8 +8,9 @@
 
 
 詳しくはQiitaにて
-https://qiita.com/harenokuni/items/273cd9a11ac4949e512c
+
+
+https://qiita.com/hare-systems-ryo/items/35851fa1565ed9fa4b41
 
 # Demo
-
-https://harenokuni.github.io/vue-tabulator-sample-1/
+https://hare-systems-ryo.github.io/vue-tabulator-sample-1/
